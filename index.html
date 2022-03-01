@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Это заголовок тайтл</title>
+		<link rel="stylesheet" type="text/css" href="style.css" >
+	</head>
+	<body>
+	   <header>
+            <img src="PikPng.com_cab-icon-png_1472205.png" class="logo"
+                width="45" height="36">
+            <div class="logo">CarStyle</div>
+            <div class="header-right">
+                <a>Наш телефон: +7911123456</a>
+                <a class="active" href="#order">Оставить заявку</a>
+            </div>
+        </header>
+        <nav>
+            <a href="#">Главная</a> | <a href="#advantages">Наши преимущества</a> |
+            <a href="#workplan">План работ</a> | <a href="#order">Заказ</a>
+        </nav>
+        <main>
+            <h1>Эксклюзивный стайлинг автомобиля</h1>
+            <p>Автомобиль мечты в ваших руках.</p>
+            <img src="pngwing.com.png" width="339" height="213">
+            <h3 id="advantages">Наши преимущества:</h3>
+            <ul>
+				<li> Быстрое выполнение работ </li>
+				<li> Низкая цена </li>
+				<li> Индивидуальный подход к каждому клиенту </li>
+				<li> Гарантия качества </li>
+			</ul>
+			<h3 id="workplan">План работ.</h3>
+			<table border="1" width="400" height="100">
+				<tr>
+				<td><p>Этап 1.</p>
+				Обработка заказа, определение необходимых для выполнения материалов</td>
+				<td><p>Этап 2.</p>
+				Разработка эскизов, обсуждение с клиентом, внесение корректировок.</td>
+				</tr>
+				<tr>
+				<td><p>Этап 3.</p>
+				Выполнение работ</td>
+				<td><p>Этап 4.</p>
+				Доставка покупателю</td>
+				</tr>
+			</table>
+			<h3 id="order">Форма заказа.</h3>
+			<form name="order" method="post">
+				<p>
+				Введите ФИО:<br>
+				<input type="text" name="fio" >
+				</p>
+				<p>
+				Введите номер телефона:<br>
+				<input type="text" name="phone">
+				</p>
+
+				<p> Какой вид услуг вас интересует? </p>
+				<p>
+				<input name="disc" type="radio" value="paint" checked>
+				Покраска автомобиля<br>
+				<input name="disc" type="radio" value="part">
+				Установка запчастей
+				</p>
+
+				<p>Выберите срочность выполнения:</p>
+				<p>
+				<select name="dostavka" size="1">
+				<option selected> Срочная </option>
+				<option> Не срочная </option>
+				</select>
+				</p>
+
+				<p>
+				Комментарий:<br>
+				<textarea  cols="40" rows="5" name="comment"></textarea>
+				</p>
+
+				<p>
+				<input type="submit" value="Сделать заказ" width="20">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="reset" value="Отмена ">
+				</p>
+			</form>
+        </main>
+        <footer>
+        	<a href="#">Главная</a>
+        	<a href="#advantages">Наши преимущества</a>
+            <a href="#workplan">План работ</a>
+            <a href="#order">Заказ</a>
+            <div class="header-right">
+            	<div class="phone-info">
+	            	<p>Наш телефон:</p>
+	                <a>+7911123456</a>
+            	</div>
+                <a class="active" href="http://vk.com"><img  style="vertical-align:middle"  src="vk.png"
+				width="64" height="64">Наша страница</a>
+            </div>
+        </footer>
+	</body>
+</html>
