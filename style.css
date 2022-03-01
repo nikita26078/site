@@ -1,5 +1,9 @@
-body {
-  width: 100%;
+html, body { 
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+overflow: auto;
 }
 
 header {
@@ -53,7 +57,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
+  line-height: 45px;  
 }
 
 nav a {
@@ -65,6 +70,11 @@ nav a {
 
 main {
   padding-left: 15px;
+}
+
+table {
+  table-layout:fixed;
+  width:100%;
 }
 
 td {
