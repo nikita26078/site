@@ -74,6 +74,7 @@ main {
 
 table {
   table-layout:fixed;
+  max-width: 500px;
   width:100%;
 }
 
